@@ -1,0 +1,31 @@
+export default class KycDataModel {
+	customerId?: string;
+	firstName?: string;
+	lastName?: string;
+	fatherName?: string;
+	dateOfBirth?: string;
+	personalNumber?: string;
+	cityOfResidence?: string;
+	gender?: string;
+	countryOfBirth?: string;
+	cityOfBirth?: string;
+	nationality?: string;
+	jobPosition?: string;
+	atJobSince?: string;
+	taxNumber?: string;
+	residenceStatus?: string;
+	zip?: string;
+	fullAddress?: string;
+	employmentStatus?: string;
+	employmentType?: string;
+	levelOfEducation?: string;
+	maritialStatus?: string;
+	numberOfDependants?: string;
+	apartmentAddress?: string;
+	countryOfResidence?: string;
+	taxPayerCountry?: string;
+	identificationDocument?: string;
+	boaConsent?: boolean;
+	marketConsent?: boolean;
+	sourceOfFunds?: string;
+}
